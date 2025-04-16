@@ -8,7 +8,7 @@ import subprocess
 # Your Telegram API credentials
 api_id = int(os.getenv("API_ID", "28624690"))  # Replace with your actual API_ID
 api_hash = os.getenv("API_HASH", "67e6593b5a9b5ab20b11ccef6700af5b")  # Replace with your actual API_HASH
-session_name = os.getenv("SESSION", "quiz_session")
+session_name = os.getenv("SESSION", "BQG0xzIAc5f-B1qE4x7hijj2-zTwKUJK7T8xiUUesfTLc9I7LOs9ERluJ5GTxWiOPMzmy8UJhkBmoGakafST3sREbZ0jeM21e7-auaHHKt5a2kGCayRKBsoQcrEY2in4ZoCJlzJ5stZy7HwDkKpdjxHYEAAOBdxuR6sq6C0D1ubLqYWo6sAo-Ot_J5XGqGV3tJHCSOQ6UE10r2ASYEeVvlk2fPv3Jt-5X5gnILXAMI5DAgbanK1MilttXQoUuO7H8G9LkBSYx0x49QdLXUdNyvYJB-Cpk6rtRtqtxeN_1GceoFPHfG635fsDtedrFxL9_P4x1gMo65MEjHZallyUW5iKeFFZ9wAAAAHIW59YAA")
 
 client = TelegramClient(session_name, api_id, api_hash)
 
